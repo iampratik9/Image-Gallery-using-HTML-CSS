@@ -7,7 +7,7 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    background-image: -webkit-linear-gradient();
+    /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
 }
 .container{
       height:100%;
@@ -30,7 +30,7 @@
     
 }
 .card{
-    width: 32%; 
+    width: 22%; 
     position: relative;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -39,7 +39,7 @@
     
 }
 .card img{
-     height:50%;
+     height:fit-content;
     width: 100%;
     height: 100%;
     filter: grayscale(100%);
